@@ -1,0 +1,111 @@
+/* CSS interno */
+html{
+    padding: 0px;
+}
+body{
+    background-color: rgb(150, 255, 220);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+#titulo{
+    color: white ;
+    font-style: italic;
+    font-size: 30px;
+}
+img{
+    width: 150px;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color:  rgb(77, 254, 195);
+}
+footer div{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer div div{
+    margin: 15px;;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    background-color: rgb(114, 255, 255);
+}
+#menu{
+    text-align: right;
+    height: 50px;
+    background-color: rgb(135, 255, 215);
+    font-size: 30px;
+    padding: 15px;
+}
+#menu a{
+    text-decoration: none;
+    padding: 10px;
+}
+#menu a:visited{
+    color:rgb(34, 139, 104);
+}
+#menu a:hover{
+    color:rgb(0, 107, 98)
+}
+.perfil{
+    border-radius: 50%;
+    border: 11px double white;
+    opacity: 80%;
+}
+.perfil:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.projects div{
+    background-color: rgb(105, 255, 205);
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    /* padding  */
+    padding: 10px;
+}
+.social{
+    width: 40px;
+}
+.social:hover{
+    width: 50px;
+}
+ul{
+    background-color: rgba(255, 255, 255, 0.553);    
+    list-style: circle;
+    margin: 50px;
+}
+li{
+    color: black;
+    font-size: 20px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.img2{
+    border-radius: 40%;
+    border: 11px double white;
+    text-align: center;
+    background: center;
+}
+.h33{
+    text-align: center;
+}
